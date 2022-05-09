@@ -1,0 +1,88 @@
+.cart {
+    &-full {
+        &__pizza {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &-header {
+                display: flex;
+                align-items: center;
+                min-width: 330px;
+                h3 {
+                    font-size: 22px;
+                    letter-spacing: 0.01em;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 18px;
+                    letter-spacing: 0.01em;
+                    color: #8D8D8D;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+    &-item {
+        max-width: 82px;
+        &-info {
+            margin-left: 15px;
+        }
+        &-controls {
+            display: flex;
+            align-items: flex-end;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 700;
+                font-size: 22px;
+                letter-spacing: 0.01em;
+                width: 25px;
+                line-height: 1;
+            }
+            button {
+                border: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #FFFFFF;
+                border: 2px solid #FE5F1E;
+                width: 25px;
+                height: 25px;
+                border-radius: 100%;
+            }
+        }
+        &-price {
+            display: flex;
+            align-items: baseline;
+            font-weight: 700;
+            font-size: 22px;
+            letter-spacing: 0.01em;
+            svg {
+                width: 13px;
+                margin-left: 4px;
+                path {
+                    fill: black;
+                }
+            }
+        }
+        &-close {
+            border: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            border: 2px solid #D7D7D7;
+            width: 25px;
+            height: 25px;
+            border-radius: 100%; 
+            svg {
+                width: 13px;
+                transform: rotate(45deg);
+                path {
+                    fill: #D7D7D7;
+                }
+            } 
+        }
+    }
+}

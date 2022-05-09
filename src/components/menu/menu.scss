@@ -1,0 +1,96 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.header {
+    &__menu {
+        padding: 35px 0;
+        ul {
+            li {
+                font-weight: 700;
+                font-size: 16px;
+                text-align: center;
+                letter-spacing: 0.015em;
+                color: #2C2C2C;
+                padding: 13px 15px;
+                background: #F9F9F9;
+                border-radius: 30px;
+                margin-left: 10px;
+                transition: .5s all;
+                cursor: pointer;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &.active {
+                    color: white;
+                    background: #282828;
+                }
+                &:hover {
+                    color: white;
+                    background: #282828;
+                }
+            }
+        }
+    }
+    &__sort {
+        position: relative;
+        min-width: 215px;
+        img {
+            transition: .3s all;
+            transform: rotate(180deg);
+        }
+        &-items {
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+            border-radius: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.015em;
+            color: #000000;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            transition: .2s all;
+            opacity: 0;
+            z-index: -1;
+            span {
+                padding: 17px;
+                cursor: pointer;
+                transition: .3s all;
+                &:hover {
+                    background: rgba(254, 95, 30, 0.05);
+                    color: #FE5F1E;
+                }
+            }
+            .active {
+                background: rgba(254, 95, 30, 0.05);
+                color: #FE5F1E;
+                font-weight: 700;
+            }
+        }
+        &.open {
+            .header {
+                &__sort-items {
+                    z-index: 1;
+                    opacity: 1;
+                }
+            }
+            img {
+                transform: rotate(0deg);
+            }
+        }
+        button {
+            border: 0;
+            outline: none;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.015em;
+            color: #FE5F1E;
+            background-color: transparent;
+            border-bottom: 1px dashed #FE5F1E;
+        }
+    }
+}

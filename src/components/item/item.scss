@@ -1,0 +1,120 @@
+.amount {
+    background-color: #EB5A1E;
+    color: #fff;
+    line-height: 1;
+    border-radius: 100%;
+    margin-left: 10px;
+    transition: .3s all;
+    display: none;
+    width: 25px;
+    padding: 3px 0;
+    &.show {
+        display: block;
+    }
+}
+
+.pizzas {
+    &__item {
+        h4 {
+            font-weight: 800;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0.01em;
+            margin-bottom: 15px;
+        }
+        .price {
+            font-weight: 700;
+            font-size: 22px;
+            letter-spacing: 0.015em;
+            svg {
+                width: 12px;
+                margin-left: 5px;
+                path {
+                    fill: black;
+                }
+            }
+        }
+        .add {
+            background: #FFFFFF;
+            border: 1px solid #EB5A1E;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #EB5A1E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 15px;
+            transition: .3s all;
+            svg {
+                width: 15px;
+                margin-right: 10px;
+                path {
+                    transition: .3s all;
+                }
+            }
+            &:hover {
+                background-color: #FE5F1E;
+                color: #fff;
+                svg {
+                    path {
+                        fill: #fff;
+                    }
+                }
+                .amount {
+                    background-color: #fff;
+                    color: #FE5F1E;
+                }
+            }
+        }
+        &-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        &-controls {
+            background: #F3F3F3;
+            border-radius: 10px;
+            padding: 10px;
+            .active {
+                background: #FFFFFF;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+                border-radius: 5px;
+            }
+            div {
+                display: flex;
+                justify-content: space-between;
+                &:first-child {
+                    button {
+                        width: 50%;
+                    }
+                }
+                &:last-child {
+                    margin-top: 10px;
+                    button {
+                        width: 33.33%;
+                    }
+                }
+            }
+            button {
+                border: 0;
+                background-color: transparent;
+                font-weight: 700;
+                font-size: 14px;
+                text-align: center;
+                letter-spacing: 0.015em;
+                color: #2C2C2C;
+                padding: 10px;
+                margin-left: 15px;
+                transition: .2s all;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &[disabled] {
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}

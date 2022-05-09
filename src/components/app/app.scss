@@ -1,0 +1,29 @@
+@import url("../../../node_modules/normalize.css/normalize.css");
+@import url("../../assets/fonts/fonts.scss");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFDF8C;
+    line-height: 1;
+    font-family: "Proxima";
+}
+
+main {
+    background-color: #fff;
+    max-width: 1340px;
+    margin: 40px auto;
+    padding: 40px 0;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+button {
+    cursor: pointer;
+}
