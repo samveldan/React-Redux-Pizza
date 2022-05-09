@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "./static/css/main.37f7bdfe.css",
+    "main.js": "./static/js/main.f951775b.js",
+    "static/media/pizza-3.png": "./static/media/pizza-3.499eed4adc76e318b4d9.png",
+    "static/media/pizza-4.png": "./static/media/pizza-4.269df91a49d5ac0f64e0.png",
+    "static/media/pizza-1.png": "./static/media/pizza-1.a479701a7d26ec82edf2.png",
+    "static/media/pizza-2.png": "./static/media/pizza-2.0bf73f131128342aec35.png",
+    "static/media/ProximaNova-Regular.eot": "./static/media/ProximaNova-Regular.d97f8f32c098b28c3ab0.eot",
+    "static/media/ProximaNova-Regular.ttf": "./static/media/ProximaNova-Regular.b078618b41b9b6629ea0.ttf",
+    "static/media/ProximaNova-Bold.eot": "./static/media/ProximaNova-Bold.787088b281e017f8c449.eot",
+    "static/media/ProximaNova-Extrabld.eot": "./static/media/ProximaNova-Extrabld.b9fcd9fbe4d0b5e73cbd.eot",
+    "static/media/ProximaNova-Bold.ttf": "./static/media/ProximaNova-Bold.7722451a8c88b6100185.ttf",
+    "static/media/ProximaNova-Extrabld.ttf": "./static/media/ProximaNova-Extrabld.026a945d32b05c6c8710.ttf",
+    "static/media/ProximaNova-Regular.woff": "./static/media/ProximaNova-Regular.99528640efded3e12591.woff",
+    "static/media/ProximaNova-Bold.woff": "./static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
+    "static/media/ProximaNova-Extrabld.woff": "./static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
+    "static/media/not-found-img.png": "./static/media/not-found-img.1744fdc7c5cd61602633.png",
+    "static/media/cart-full.svg": "./static/media/cart-full.dcd5168086a25b3307ba9f5524ca6e70.svg",
+    "static/media/cart.svg": "./static/media/cart.d05720f2b474db2145233cd2ce1d4e91.svg",
+    "static/media/trash.svg": "./static/media/trash.ceafcffb34cece0b1462c3505b170d88.svg",
+    "static/media/rub.svg": "./static/media/rub.afdceb106d6a3409997674a0d1b5ae04.svg",
+    "static/media/plus.svg": "./static/media/plus.60f22895d8481cbfb4ee9df7ef0c69f3.svg",
+    "static/media/arrow.svg": "./static/media/arrow.8a732a7211d0fa00bfd63712369e29cc.svg",
+    "index.html": "./index.html",
+    "static/media/cross.svg": "./static/media/cross.dcca509e467c41efa81e.svg",
+    "static/media/minus.svg": "./static/media/minus.fe679d6907ef6db33dcc9872be10703a.svg",
+    "static/media/cart-arrow.svg": "./static/media/cart-arrow.fc29ec73901b6f8218c91a0d69592416.svg",
+    "main.37f7bdfe.css.map": "./static/css/main.37f7bdfe.css.map",
+    "main.f951775b.js.map": "./static/js/main.f951775b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f7bdfe.css",
+    "static/js/main.f951775b.js"
+  ]
+}
